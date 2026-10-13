@@ -1,0 +1,54 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# PlantCare AI generated files
+backend/venv/
+backend/dataset/
+backend/reports/
+__pycache__/
+.pytest_cache/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+
+# Datasets and training outputs
+PlantVillage/
+datasets/
+data/
+*.zip
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Include the current trained model
+!backend/models/efficientnetb0_plantcare_smoke.h5
+
+# Keep only the current PlantCare model
+backend/models/*
+!backend/models/efficientnetb0_plantcare_smoke.h5
+
+# Local backup files
+*.backup
+*.gradcam-backup

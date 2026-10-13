@@ -1,0 +1,7 @@
+{
+  "name": "PlantCare AI — Plant Disease Detection System",
+  "description": "Deep Learning-Based Plant Disease Detection System using EfficientNetB0, Custom CNN baseline, and Grad-CAM explainability for agricultural AI students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
