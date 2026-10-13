@@ -52,3 +52,7 @@ backend/models/*
 # Local backup files
 *.backup
 *.gradcam-backup
+
+# Local backup files
+*.backup
+*.gradcam-backup
